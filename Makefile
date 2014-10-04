@@ -1,6 +1,6 @@
 CXX = clang++
 SOURCE = main.cpp
-EXEC = main
+EXEC = mainExec
 FLAGS = -std=c++11 -g
 CLEAR = clear
 
