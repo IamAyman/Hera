@@ -2,12 +2,10 @@ Hera
 ====
 Hera is an artificial intelligence software you can talk with
 
---------
 Current version
 ===
 This project still under development in pre-alpha stage
 
---------
 Technical details
 ===
 Project main language : **C++** 
