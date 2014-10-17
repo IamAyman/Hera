@@ -19,7 +19,7 @@ void RespondGenerator::resetRespond(){ this->respond = ""; }
 void RespondGenerator::generate(const SyntaxMetadata &object)
 {
 	this->resetRespond();
-	
+
 	if(object.getSyntaxErrors() == SyntaxMetadata::ERROR::EMPTY_SYNTAX)
 	{
 		this->respond = getRespondsForEmptySyntax();
@@ -40,3 +40,4 @@ void RespondGenerator::generate(const SyntaxMetadata &object)
 std::string RespondGenerator::getRespond(){ return this->respond; }
 
 #endif
+
